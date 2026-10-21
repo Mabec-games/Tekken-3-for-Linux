@@ -1,0 +1,45 @@
+{
+  "stage_id": 20,
+  "music_id": 16,
+  "base_geometry": "verified US forest cylinder",
+  "renderer": "native fallback; guarded full-detail backdrop on OpenGL",
+  "host_background_size": [
+    2172,
+    331
+  ],
+  "texture_count": 11,
+  "panorama_size": [
+    768,
+    192
+  ],
+  "panorama_colors": 256,
+  "floor_size": [
+    64,
+    64
+  ],
+  "floor_colors": 16,
+  "remapped_primitives": 640,
+  "diagnostic_panorama_coverage": 1.0,
+  "assets": {
+    "Heavenly-Garden.arc": {
+      "size": 323300,
+      "sha256": "ffa1aacdf24d046269b8c125b6a22c9cd42520e11b09d68be8f375fb49278401"
+    },
+    "Heavenly-Garden.mesh": {
+      "size": 23100,
+      "sha256": "65b9f3e24144097066fe85fcd7691b42ae97a843bb50215e28fa46550cef3633"
+    },
+    "background-mapping.bin": {
+      "size": 732,
+      "sha256": "8cef2e1fead43de36190c4fef9397b8fa91b3631c16229e3e100bf43060becd6"
+    },
+    "background.rgba": {
+      "size": 2875744,
+      "sha256": "4b22eb0e80c6935c98e1a436ab9ab09fb373ad0ee0ff0b88259589ae54826e26"
+    },
+    "ground.rgba": {
+      "size": 16400,
+      "sha256": "467c5cec1ccb1b6d455465687f93338085a15d68a55653ef15efd1fd7aff4ba8"
+    }
+  }
+}

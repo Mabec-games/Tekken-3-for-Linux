@@ -1,0 +1,6 @@
+{
+  "method": "Built-in image_gen",
+  "reference": "background.png",
+  "output": "source/ground-water-v3.png",
+  "prompt": "Generate a square seamlessly tileable game ground diffuse texture for still, almost perfectly flat water, in a restrained original PlayStation / Tekken 3 visual style. The attached panorama is ONLY a colour reference: match the pale muted lavender water at its very bottom edge, approximately RGB (180,160,203), not its sky. Output ONLY the flat top-down square water texture, no panorama. Nearly solid lavender, with extremely subtle broad soft tonal variation of no more than a few RGB levels. No grain, no noise, no speckles, no pixel checkerboard, no stones, no waves, no flowing ripples, no foam, no bright highlights, no flowers, no islands, no objects, no sky or horizon, no perspective, no shadows, no dark border, no vignette. All edges should match seamlessly. This texture will be reduced to 64x64 and a small PS1 colour palette, so keep the image exceptionally simple and even-toned; it should read as tranquil flat water, never rough ground. Preserve the reference's lavender water hue. Do not change or regenerate the panorama."
+}

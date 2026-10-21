@@ -1,0 +1,5 @@
+{
+  "method": "built-in image_gen",
+  "asset": "source/ground-still-water.png",
+  "prompt": "Use case: stylized-concept. Asset type: square seamless PS1 fighting-game floor texture. User wants very still water that is almost a simple flat colour. Render a nearly uniform muted grey-jade water surface with just extremely subtle broad tonal variation, under 5 percent contrast. Top-down orthographic, matte late-1990s PlayStation diffuse texture, quiet and simple. No movement, no ripples, no waves, no caustic lines, no reflections of recognizable objects, no stones, no sand, no visible bed, no foam, no glossy highlights, no plants. Not a gradient from one side to another: same average colour at all borders, seamless tile. Think a calm opaque pool, mostly one mid-light desaturated grey-green colour, no busy pixel noise, only a few very close tones. Full square material only; no text, borders, scene or horizon."
+}

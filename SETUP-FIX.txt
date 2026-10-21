@@ -1,0 +1,24 @@
+Tekken 3 Recompiled v0.1.2 - Easy Setup fix
+
+Already have v0.1.1 and setup keeps failing?
+
+1. Close Play Tekken 3 and any running setup window.
+2. Extract Tekken3Recompiled-v0.1.2-Setup-Fix.zip to a temporary folder.
+3. Copy all its contents into your EXISTING Easy Setup folder, beside
+   Play Tekken 3.exe. Choose Replace when Windows asks.
+   The launcher folder must merge with your existing launcher folder.
+4. Open Play Tekken 3.exe again and click Set up & play / Try again.
+
+Do not rename, move or delete the existing game folder. CMake caches use its
+current path. Your tools, imported Jun files, completed build work, settings
+and saves are kept. No commands or extra installations are needed.
+
+This patch requires the v0.1.1 Easy Setup package. It is not a standalone game.
+For a new installation, use Tekken3Recompiled-v0.1.2-Easy-Setup.zip instead.
+
+The fix avoids the repeated CMake regeneration that ends with:
+  manifest 'build.ninja' still dirty after 100 tries
+
+Setup still configures the build explicitly on each attempt. Build failures
+now point to the setup log rather than incorrectly suggesting low memory.
+This update does not change gameplay or mods.

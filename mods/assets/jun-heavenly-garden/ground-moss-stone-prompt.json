@@ -1,0 +1,5 @@
+{
+  "method": "built-in image_gen",
+  "asset": "source/ground-moss-stone.png",
+  "prompt": "Use case: stylized-concept. Asset type: seamless square diffuse floor texture for a late-1990s PS1 fighting-game garden stage. Make dry, solid, gently worn grey-brown stone partially covered by muted olive moss and packed earth. Small irregular flat stone fragments embedded flush into the earth, subtle shallow cracks and patches of moss, restrained natural contrast so repeated tiling is quiet beneath fighters. Strictly top-down orthographic material, even flat baked lighting, no horizon, no scene perspective. Low-detail painted/pre-rendered PS1 texture aesthetic, not cartoon pixel-art squares, no intentionally oversized pixels, no modern glossy PBR finish. Should read well at 64x64 texels. Warm grey, taupe, muted olive, subdued beige highlights. Completely dry: no water, ripples, reflections, foam, shiny areas or blue tint. No paving grid, large boulders, plants standing up, flowers, text, borders, logos. Seamless on all four sides; full canvas filled by ground material."
+}

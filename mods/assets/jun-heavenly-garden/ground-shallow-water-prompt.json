@@ -1,0 +1,5 @@
+{
+  "method": "built-in image_gen",
+  "asset": "source/ground-shallow-water-generated.png",
+  "prompt": "Use case: stylized-concept. Asset type: seamless square tileable diffuse floor texture for a PlayStation 1 fighting game. Primary request: shallow clear water with the solid sandy stone bed clearly visible beneath the water, so fighters visibly stand on submerged ground rather than cloudy blank water. Top-down orthographic view only, full-bleed material texture, no perspective or horizon. Muted sage/aqua translucent water over warm grey-beige sand with small low-contrast rounded stones, with readable simple pale ripples and broken caustic lines. The bed should dominate visually with water ripples over it; no deep water. Style: late-1990s Tekken 3 PS1 texture, chunky low-resolution texel clusters, deliberately limited roughly 16-color palette, flattened baked lighting. Designed to remain readable when downsampled to a 64x64 texture. Seamless on all four edges. No glossy modern rendering, no photorealism, no large central rocks, no plants, no flowers, no text, no borders, no UI. Square image."
+}

@@ -1,0 +1,47 @@
+{
+  "status": "authoring-assets; native integration in native/manifest.json",
+  "source_crop": [
+    0,
+    215,
+    2172,
+    546
+  ],
+  "native_palette_channel_bits": 5,
+  "runtime_mapping": "native/manifest.json",
+  "assets": {
+    "background": {
+      "size": [
+        2172,
+        331
+      ],
+      "colors_used": 204473,
+      "matching_edge_axes": [
+        1
+      ]
+    },
+    "ground": {
+      "size": [
+        64,
+        64
+      ],
+      "colors_used": 16,
+      "matching_edge_axes": [
+        0,
+        1
+      ]
+    }
+  },
+  "floor_join": {
+    "background_water_rgb": [
+      180.00345303867402,
+      160.541091160221,
+      203.04903314917127
+    ],
+    "native_floor_rgb": [
+      181.0,
+      160.4384765625,
+      214.0
+    ],
+    "maximum_channel_delta": 10.950966850828735
+  }
+}

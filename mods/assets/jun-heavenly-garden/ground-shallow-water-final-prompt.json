@@ -1,0 +1,6 @@
+{
+  "method": "built-in image_gen",
+  "asset": "source/ground-shallow-water-final.png",
+  "reference": "source/ground-shallow-water-generated.png",
+  "prompt": "Use case: precise-object-edit. Edit target: this shallow water floor texture. Preserve the top-down tileable material, sage/aqua water, warm grey-beige sandy bed and late-1990s PS1 style. Change only its detail scale and contrast so it stays clearly readable at a final resolution of 64x64 pixels: remove most tiny grains and tiny stones, use about 8 to 12 medium softly rounded pebbles (each occupying roughly 4 to 7 pixels at final 64x64 scale), simple sandy patches and 2-pixel-wide pale aqua water ripples with modest darker outlines. The water should clearly read as a transparent shallow layer over solid ground. Make the ground/stone shapes and the water highlights about twice as distinct, without oversaturated colors. Render the entire image AS a 64x64 low-resolution PS1 diffuse texture enlarged with crisp nearest-neighbor pixels, approximately 16 colors total. Avoid smooth gradients, noisy high resolution detail, modern glossy water, large focal rocks, foam, large white patches, plants, flowers, text, border. Seamless square full-bleed tile, consistent edges. No perspective."
+}

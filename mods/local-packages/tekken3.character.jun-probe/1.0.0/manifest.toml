@@ -1,0 +1,23 @@
+format_version = 5
+id = "tekken3.character.jun-probe"
+version = "1.0.0"
+name = "Jun Kazama (TTT1)"
+author = "Tekken3Recomp"
+description = "Adds Jun as a separate fighter with all three arcade outfits, voices and solo TTT1 combat conversion. Requires locally imported donor assets."
+resolver = "declarative"
+save_compatibility = "shared"
+
+[[target]]
+game_id = "SLUS-00402"
+exe_sha256 = "fbda8b68e5799dbef4af39a161783bc670c15b0aa0e87dce65e210717da19b8c"
+
+[[feature]]
+id = "jun-probe"
+name = "Jun Kazama"
+description = "Adds Jun to both character selectors with solo moves, throws, reversals and victory animations. Preview: tag mechanics are excluded."
+group = "Characters"
+default_enabled = true
+
+[[plugin]]
+feature = "jun-probe"
+id = "tekken3.jun-probe"

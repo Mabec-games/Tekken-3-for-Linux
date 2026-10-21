@@ -1,0 +1,34 @@
+{
+  "tool": "built-in image_gen",
+  "jobs": [
+    {
+      "key": "eddy",
+      "args": {
+        "referenced_image_paths": [
+          "137-source-atlas.png"
+        ],
+        "prompt": "Use case: precise-object-edit. Asset type: production PS1 character UV texture atlas. Edit the provided Eddy Gordo texture sheet, exactly SIX equal columns by FIVE equal rows. Output the same 6:5 aspect and exact cell placement, full bleed, no borders or labels, no rearrangement. This is a recolor of his primary green/yellow capoeira outfit to BLACK AND WHITE, and brown hair to BLACK. Keep the source folds, logos, narrow stripe placement and all UV boundaries. Green cloth becomes soft near-black with visible charcoal folds; yellow cloth becomes white with soft grey folds; purple/blue trim becomes black/white trim. Hair is black with neutral grey highlights, not brown. Preserve his warm brown skin, eyes, face, hands, bare chest, feet, necklace, identity and original transparency EXACTLY; do not bleach or recolor skin. Row1 cells zero-based 0..5: unchanged face, unchanged necklace, black hair, unchanged hand, unchanged skin, WHITE cloth. Row2 6..11: BLACK cloth, unchanged skin, BLACK cloth, unchanged chest except thin green bottom hem becomes black, unchanged chest except green hem black, unchanged face. Row3 12..17: WHITE cloth, white/black striped trim, unchanged face with existing dark hair kept black, WHITE cloth, unchanged skin, unchanged skin. Row4 18..23: black/white striped trim, BLACK cloth, black hair above unchanged brown neck, unchanged skin, BLACK cloth with the same existing gold motif changed WHITE, unchanged fingers. Row5 24..29: black textured hair, unchanged ear, black dreadlocks retaining silhouette, neutral black/grey stripe cloth, unused blank, unused blank. No new symbols, no new design, no new facial detail. Texture atlas only, not a fighter illustration. Keep texture shapes and material boundaries precisely aligned; softly detailed PS1-compatible material colors."
+      }
+    },
+    {
+      "key": "julia",
+      "args": {
+        "referenced_image_paths": [
+          "153-source-atlas.png",
+          "codex-clipboard-18d2bbf9-6038-4f2d-ac9c-0c232da6ec8d.png"
+        ],
+        "prompt": "Use case: precise-object-edit. Asset type: game UV texture atlas. Image1 is the EDIT TARGET Julia Chang PS1 texture atlas; Image2 is CLOTHING COLOR/MATERIAL REFERENCE ONLY, not a target. Deliver a square atlas with exactly SIX equal columns and SIX equal rows, no margins, no grid lines or labels. Keep every cell in exactly its existing location with the same UV shapes and silhouette. Translate the reference's blue/turquoise crop top, dark indigo denim lower garment, white/silver boots and fingerless gloves, dark leather trims into the stock texture atlas. Do not draw a character or redesign the texture layout. Preserve all original skin, face, brown braided hair, ears, necklace and feather silhouettes. Key zero-based cells row-major: 7 and 8 retain indigo denim but darken slightly; 11 and12 are ochre garment panels, repaint BLUE TURQUOISE textile with the same folds; 13 ochre constant -> deep turquoise; 14 white material stays white/silver glove leather; 15 green material -> blue turquoise; 20 dark lacing -> black leather lacing; 21 maroon-and-gold boot panel -> silver-white leather with fine dark edging in same position; 22 ochre/fringed boot trim -> silver-grey in same outline; 26 ochre decorated garment panel -> turquoise blue keeping its original trim location but restrained; 28 gold/purple diamond detail -> blue/turquoise/silver; 30 ochre fringe strips -> silver-grey in identical shapes. Cells 0,1,2,4,9,10,16,17,18,19,23,24,27,29 must keep their skin/hair/face untouched. The colorful braid/headband weave can remain. Unused black cells remain unused. No extra objects, labels, text, faces or changed anatomy. Flat texture sheets with softly detailed materials, not glossy renders."
+      }
+    },
+    {
+      "key": "heihachi",
+      "args": {
+        "referenced_image_paths": [
+          "181-source-atlas.png",
+          "codex-clipboard-9ce15690-49fe-4442-a5c5-304f33c2faf3.png"
+        ],
+        "prompt": "Use case: precise-object-edit. Asset type: PS1 game character UV texture atlas. Image1 is EDIT TARGET Heihachi's stock clothed-alternate atlas; Image2 is outfit design reference only. Deliver SIX equal columns by FIVE equal rows, exact existing cell layout and 6:5 aspect, no borders, gutters, labels or figures. Repaint clothing to match Heihachi's gold-and-black TIGER COAT, dark charcoal trousers, dark fur lapel, and gold-trimmed dark footwear. Preserve all face, exposed skin, ears and grey hair exactly as source. Do not draw a fighter, only flat UV tiles. Cell indices zero-based row-major: 0,1,5,6,7,19,21,22,24 are face/hair/skin/constant and must remain unchanged. 2 grey-purple furry strip -> dark charcoal fur collar, retaining jagged silhouette. 3 small yellow strip stays muted gold. 4 ivory fold -> charcoal fabric with gold embroidery accents; 8 and9 ivory knee-like folds -> charcoal trousers with restrained warm gold trim; 10 ivory folded cloth -> dark charcoal fabric with gold detail; 11 mixed skin/white cuff -> preserve skin area, make cuff dark with a gold edge; 12 maroon panel with light trim -> rich ochre-gold coat fur with black organic TIGER STRIPES and dark charcoal fur edge; 13 pale fuzzy patch -> charcoal fur texture; 14,15,17 maroon coat panels -> rich ochre-gold and black tiger-stripe coat texture, coherent scale between cells; 16 ivory cloth -> charcoal dark trousers with a subtle gold embroidered motif; 18 dark footwear -> dark leather with warm gold trim; 20 maroon coat panel with pale trim -> gold-and-black tiger stripes with dark fur border in same position; 23 pale geometric footwear -> dark leather with gold armor-like edging following original folds. Preserve the source cloth shading placement, seams and UV-island boundaries. Tiger stripes bold, organic, high contrast; fur gold NOT neon orange. Inspired by the reference on original PS1 geometry, no new mesh assumptions. Unused cells stay blank. No text or labels."
+      }
+    }
+  ]
+}
