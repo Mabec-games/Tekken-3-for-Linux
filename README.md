@@ -1,3 +1,5 @@
+<h3 align="center">Mabec Games presents</h3>
+
 <p align="center">
   <img src="img/logo.png" alt="Tekken 3 for Linux" width="620" />
 </p>
