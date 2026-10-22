@@ -15,7 +15,7 @@
 
 ## Overview
 
-**Tekken 3 for Linux** brings Namco's 1998 PlayStation classic to Linux as a native `x86_64` executable and standalone **AppImage**, built on **PSXRecomp** and **recomp-ui**. Rather than running inside a traditional interpreter emulator, the original `SLUS_004.02` MIPS R3000A binary is statically translated into native C/x86_64 code and paired with a hardware-accelerated OpenGL renderer, an integrated graphical launcher, a declarative Mod Manager, and Peer-to-Peer Rollback Netplay.
+**Tekken 3 for Linux** brings Namco's 1998 PlayStation classic to Linux as a native `x86_64` executable and standalone **AppImage** & Flatpak for older SDL2 systems, built on **PSXRecomp** and **recomp-ui**. Rather than running inside a traditional interpreter emulator, the original `SLUS_004.02` MIPS R3000A binary is statically translated into native C/x86_64 code and paired with a hardware-accelerated OpenGL renderer, an integrated graphical launcher, a declarative Mod Manager, and Peer-to-Peer Rollback Netplay.
 
 | Feature | Details |
 |---|---|
